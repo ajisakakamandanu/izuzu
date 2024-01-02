@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izuzu Music</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <p>Izuzu Music.</p>
+            </div>
+            <div class="navList">
+                <ul>
+                    <li>Beranda</li>
+                    <li>Tentang Kami</li>
+                    <li>Layanan</li>
+                    <li>Produk</li>
+                    <li>Kontak</li>
+                </ul>
+            </div>
+            <div class="menu" onclick="menuTogle()" id="menu-togle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Selamat Datang di Izuzu Music</h1>
+            <p>Tempat Anda untuk Mencari Alat Marching Band Berkualitas</p>
+            <div class="btnHero">
+                <button>Lihat Produk Kami</button>
+                <Image src="/assets/arrow.png" width={100} height={100} alt="arrow" />
+            </div>
+            <div class="square">
+
+            </div>
+        </div>
+    </header>
+    <section class="layanan-section">
+        <div class="layanan">
+            <h1>Layanan Kami</h1>
+        </div>
+        <div class="card-layanan">
+            <div class="card">
+                <div class="number">
+                    <p>#satu</p>
+                </div>
+                <div class="title">
+                    <h2>Peminjaman</h2>
+                </div>
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ab expedita ad consequuntur quis porro eligendi </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">
+                    <p>#dua</p>
+                </div>
+                <div class="title">
+                    <h2>Penyewaan</h2>
+                </div>
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ab expedita ad consequuntur quis porro eligendi</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">
+                    <p>#tiga</p>
+                </div>
+                <div class="title">
+                    <h2>Penjualan</h2>
+                </div>
+                <div class="description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut ab expedita ad consequuntur quis porro eligendi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-section">
+        <div class="product">
+            <h1>Product Kami</h1>
+        </div>
+        <div class="card-layanan">
+            <div class="card">
+                <div class="number">
+                    <p>#satu</p>
+                </div>
+                <div class="img">
+                    <img src="assets/snare.png" alt="snare">
+                </div>
+                <div class="title">
+                    <h2>Snare Drum</h2>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Size : 10", 12", 13", 14"</li>
+                        <li>Body : Tube 3-4 plywood @ 2.2 mm </li>
+                        <li>Lug : Cor alumunium chrome jumlah 8</li>
+                        <li>Ring : Besi plat tebal 1.4 mm. finishing plating black</li>
+                        <li>Strainer : Model tuas chrome snare per</li>
+                        <li>Head and Bottom : Maxtone / rolling (Taiwan)</li>
+                        <li>Baut : Import</li>
+                        <li>Include : Sling / Pemukul</li>
+                        <li>Color : Glitter gradalin silver, gold, red, green blue, purple, orange, or request</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">
+                    <p>#dua</p>
+                </div>
+                <div class="img">
+                    <img src="assets/Tenor drum.png" alt="Tenor">
+                </div>
+                <div class="title">
+                    <h2>Tenor Drum</h2>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Size : 10", 12", 13", 14"</li>
+                        <li>Body : Tube 3-4 plywood @ 2.2 mm </li>
+                        <li>Lug : Cor alumunium chrome jumlah 8</li>
+                        <li>Ring : Besi plat tebal 1.4 mm. finishing plating black</li>
+                        <li>Head and Bottom : Maxtone / rolling (Taiwan)</li>
+                        <li>Baut : Import</li>
+                        <li>Include : Sling / Pemukul</li>
+                        <li>Color : Glitter gradalin silver, gold, red, green blue, purple, orange, or request</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">
+                    <p>#tiga</p>
+                </div>
+                <div class="img">
+                    <img src="assets/bass drum.png" alt="Bass">
+                </div>
+                <div class="title">
+                    <h2>Bass Drum</h2>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Size : 13", 14", 18", 20", 22", 24"</li>
+                        <li>Body : Tube 4 plywood @ 2.2 mm </li>
+                        <li>Lug : Cor alumunium chrome 13" & 14" jumlah 8, 16" & 20" jumlah 10, 22" & 24" jumlah 12 </li>
+                        <li>Clow : Besi plat finishing chrom</li>
+                        <li>Sing : Folk plat tebal 1.6 mm, finishing plating black</li>
+                        <li>Head and Bottom : Maxtone / rolling (Taiwan)</li>
+                        <li>Baut : Import</li>
+                        <li>Include : Sling / Pemukul</li>
+                        <li>Color : Glitter gradalin silver, gold, red, green blue, purple, orange, or request</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">
+                    <p>#empat</p>
+                </div>
+                <div class="img">
+                    <img src="assets/bass drum.png" alt="Bass">
+                </div>
+                <div class="title">
+                    <h2>Bass Drum</h2>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Size : 13", 14", 18", 20", 22", 24"</li>
+                        <li>Body : Tube 4 plywood @ 2.2 mm </li>
+                        <li>Lug : Cor alumunium chrome 13" & 14" jumlah 8, 16" & 20" jumlah 10, 22" & 24" jumlah 12 </li>
+                        <li>Clow : Besi plat finishing chrom</li>
+                        <li>Sing : Folk plat tebal 1.6 mm, finishing plating black</li>
+                        <li>Head and Bottom : Maxtone / rolling (Taiwan)</li>
+                        <li>Baut : Import</li>
+                        <li>Include : Sling / Pemukul</li>
+                        <li>Color : Glitter gradalin silver, gold, red, green blue, purple, orange, or request</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">
+                    <p>#Lima</p>
+                </div>
+                <div class="img">
+                    <img src="assets/bass drum.png" alt="Bass">
+                </div>
+                <div class="title">
+                    <h2>Bass Drum</h2>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Size : 13", 14", 18", 20", 22", 24"</li>
+                        <li>Body : Tube 4 plywood @ 2.2 mm </li>
+                        <li>Lug : Cor alumunium chrome 13" & 14" jumlah 8, 16" & 20" jumlah 10, 22" & 24" jumlah 12 </li>
+                        <li>Clow : Besi plat finishing chrom</li>
+                        <li>Sing : Folk plat tebal 1.6 mm, finishing plating black</li>
+                        <li>Head and Bottom : Maxtone / rolling (Taiwan)</li>
+                        <li>Baut : Import</li>
+                        <li>Include : Sling / Pemukul</li>
+                        <li>Color : Glitter gradalin silver, gold, red, green blue, purple, orange, or request</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="number">
+                    <p>#enam</p>
+                </div>
+                <div class="img">
+                    <img src="assets/bass drum.png" alt="Bass">
+                </div>
+                <div class="title">
+                    <h2>Bass Drum</h2>
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Size : 13", 14", 18", 20", 22", 24"</li>
+                        <li>Body : Tube 4 plywood @ 2.2 mm </li>
+                        <li>Lug : Cor alumunium chrome 13" & 14" jumlah 8, 16" & 20" jumlah 10, 22" & 24" jumlah 12 </li>
+                        <li>Clow : Besi plat finishing chrom</li>
+                        <li>Sing : Folk plat tebal 1.6 mm, finishing plating black</li>
+                        <li>Head and Bottom : Maxtone / rolling (Taiwan)</li>
+                        <li>Baut : Import</li>
+                        <li>Include : Sling / Pemukul</li>
+                        <li>Color : Glitter gradalin silver, gold, red, green blue, purple, orange, or request</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="layanan-section">
+      
+    </section>
+
+</body>
+</html>

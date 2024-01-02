@@ -1,0 +1,99 @@
+@media(max-width: 576px){
+    header nav {
+        transition: height 0.5s ease-in-out;
+        height: 5rem;
+        background-color: #03001C;
+    }
+  
+    header nav .logo{
+        position: absolute;
+        left: 2rem;
+        top: 2rem;
+        font-size: 0.85em;
+    }
+    
+    header nav .navList ul{
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 0.85em;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+    }
+  
+    header nav .menu{
+        display: flex;
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+    }
+  
+    .navOpen{
+        height: 100%;
+        transition: height 0.5s ease-in-out;
+  
+    }
+  
+    .navOpen .navList ul{
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 0.85em;
+        max-height: 500px; 
+        opacity: 1;
+        transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
+    }
+  
+  
+    header .hero p{
+        margin: 1rem 0;
+        font-size: 0.8em;
+    }
+  
+    header .hero h1{
+        font-size: 1.7em;
+    }
+  
+    header .square{
+        display: none;
+    }
+  
+    header .hero .btnHero button{
+        width: 10rem;
+        height: 1.8rem;
+        font-size: 0.7em;
+    }
+    
+    header .hero .btnHero img{
+        height: 1.8rem;
+        background-color: #5B8FB9;
+        padding: 8px;
+        
+    }
+  
+
+    .layanan-section{
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .product-section{
+        padding: 5rem 0 0 0;
+    }
+
+
+    .layanan h1, .product h1{
+        font-size: 1.9em;
+    }
+
+    .card .description p{
+        font-size: 0.85em;
+    }
+
+    .card .number{
+        width: 4rem;
+        height: 2rem;
+        font-size: 0.7em;
+    }
+  
+}
